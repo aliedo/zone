@@ -34,10 +34,16 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '4268717180';
+    var serviceWorkerVersion = '1442332356';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+  <script>
+    window.flutterConfiguration = {
+      //  canvasKitBaseUrl: "https://cdn.jsdelivr.net/npm/canvaskit-wasm@0.35.0/bin/"
+      canvasKitBaseUrl: "canvaskit/" //自带版本
+    };
+  </script>
 </head>
 <body>
   <script>
